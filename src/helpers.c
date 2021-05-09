@@ -211,7 +211,7 @@ void resetRedirections(job_info* job){ // reset redirection <, >
 	dup(fd_In);	
 	dup(fd_Out);
 	dup(fd_err);
-
+	
 	close(fd_In);
 	close(fd_Out);
 	close(fd_err);
